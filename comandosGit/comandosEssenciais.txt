@@ -1,0 +1,9 @@
+git clone <url> - Clona um repositório Git existente localmente, copiando todo o histórico de commits e arquivos do repositório remoto especificado por `<url>`.
+git status - Mostra o estado atual do seu diretório de trabalho e do índice (staging area), informando quais arquivos foram modificados, adicionados ou removidos.
+git add <arquivo> - Adiciona arquivos modificados ao índice (staging area) para prepará-los para um novo commit.
+git commit -m "mensagem do commit" - Grava as mudanças no repositório como um novo commit. A mensagem fornecida com `-m` descreve brevemente as alterações feitas no commit.
+git pull origin <LOCAL> - Puxa as alterações do repositório remoto para o ramo local. Equivale a `git fetch` seguido por `git merge`.
+git push origin <LOCAL> - Envia os commits locais para o repositório remoto, atualizando o ramo remoto com suas mudanças.
+git branch - Lista todos os ramos locais e indica qual ramo está atualmente ativo (com um asterisco).
+git checkout <ramo> - Muda para outro ramo. Pode ser usado para alternar entre ramos existentes ou para criar um novo ramo (`git checkout -b <novo-ramo>`).
+git merge <ramo> - Combina o histórico de um ramo específico ao ramo atual. Geralmente usado para mesclar um ramo de desenvolvimento de volta ao ramo principal.
